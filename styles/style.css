@@ -1,0 +1,65 @@
+body {
+    font-family: 'Droid Serif', serif;
+    margin: 0;
+    padding: 0;
+    background: url("../images/hhhh.png") no-repeat;
+    background-size: cover;
+}
+.box {
+    width: 450px;
+    background: navajowhite;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+.box-img {
+    border-radius: 80%;
+}
+
+ul{
+margin: 0;
+    padding: 0;
+}
+.box li{
+display: inline-block;
+    margin: 6px;
+
+
+}
+.box li a {
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    align-content:center;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    font: bold;
+
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}
